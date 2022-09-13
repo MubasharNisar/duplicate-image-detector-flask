@@ -1,0 +1,114 @@
+<head>
+  <title>Image Duplicate Detector</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+<!--===============================================================================================-->
+<!--===============================================================================================-->
+  <link rel="icon" type="image/png" href="./static/images/icons/favicon.ico"/>
+<!--===============================================================================================-->
+  <link rel="stylesheet" type="text/css" href="./static/vendor/bootstrap/css/bootstrap.min.css">
+<!--===============================================================================================-->
+<!--===============================================================================================-->
+  <link rel="stylesheet" type="text/css" href="./static/vendor/animate/animate.css">
+<!--===============================================================================================-->
+  <link rel="stylesheet" type="text/css" href="./static/vendor/css-hamburgers/hamburgers.min.css">
+<!--===============================================================================================-->
+  <link rel="stylesheet" type="text/css" href="./static/vendor/animsition/css/animsition.min.css">
+<!--===============================================================================================-->
+  <link rel="stylesheet" type="text/css" hrexf="./static/vendor/select2/select2.min.css">
+<!--===============================================================================================-->
+  <link rel="stylesheet" type="text/css" href="./static/vendor/daterangepicker/daterangepicker.css">
+<!--===============================================================================================-->
+  <link rel="stylesheet" type="text/css" href="./static/css/util.css">
+  <link rel="stylesheet" type="text/css" href="./static/css/main.css">
+<!--===============================================================================================-->
+</head>
+<body>
+  <div class="row">
+    <div class="container-contact100-form-btn" style="padding-left: 1200px;">
+      <div class="wrap-contact100-login-btn">
+        <div class="contact100-login-bgbtn"></div>
+        <!--button class should be copyright @pankajmathur.com contact100-form-btn -->
+        <button id = "login" class="contact100-login-btn">
+          <span>
+            Login
+          </span>
+        </button>
+      </div>
+    </div>
+    <div class="container-contact100-form-btn" style="padding-left: 40px;">
+      <div class="wrap-contact100-login-btn">
+        <div class="contact100-login-bgbtn"></div>
+        <!--button class should be copyright @pankajmathur.com contact100-form-btn -->
+        <button id = "login" class="contact100-login-btn">
+          <span>
+            Sign Up
+          </span>
+        </button>
+      </div>
+    </div>
+  </div>
+  <div style="padding-left: 550px; height: 100px; width: 100px;">
+    <img  src="../static/images/logo.png">
+  </div>
+  <!-- <div style="padding-left: 55px; padding-top: 100px;">
+    <img  src="../static/images/image1.png" style="width: 1350px;">
+  </div>
+  <h1 style="padding-top: 100px; padding-left: 650px;">News</h1>
+  <div style="padding-left: 55px; padding-top: 20px;">
+    <img  src="../static/images/image2.png" style="width: 1350px;">
+  </div> -->
+  <!-- <div class="container-contact100"> -->
+    <!-- <div class="wrap-contact100"> -->
+      <!-- <div>
+        <img  src="../static/images/logo.png">
+      </div> -->
+      <!-- <span class="contact100-form-title">Duplicate Image Detector</span> -->
+      <div style="padding-top: 100px">
+        <form class="contact100-form validate-form"  method="post" enctype="multipart/form-data">
+          <div class="row">
+            <div class="validate-input" data-validate = "Valid image file is required: jpg or png" style="padding-left: 500px; margin-top: 30px;">
+              <!-- <span class="label-input100">Select Only One Image File</span> -->
+              <input id="inp_file" type="file" name="image" >
+              <input id="inp_img" type="hidden" name="img" value="">
+              <span class="focus-input100"></span>
+            </div>
+            <div class="container-contact100-form-btn">
+              <div class="wrap-contact100-form-btn">
+                <div class="contact100-form-bgbtn"></div>
+                <!--button class should be copyright @pankajmathur.com contact100-form-btn -->
+                <button type = "submit" id = "submit_btn" class="contact100-form-btn">
+                  <span>
+                    Upload & Analyze Image
+                    <i class="fa fa-long-arrow-right m-l-7" aria-hidden="true"></i>
+                  </span>
+                </button>
+              </div>
+            </div>
+          </div>
+          <!-- <div>
+            <img id='image-picked' class='no-display'>
+          </div> -->
+          <div style="padding-left: 600px">
+            <br>{{pred}}<br>
+          </div>
+        </form>
+      </div>
+    <!-- </div> -->
+  <!-- </div> -->
+  <div style="padding-left: 55px; padding-top: 10px;">
+    <img  src="../static/images/image1.png" style="width: 1350px;">
+  </div>
+  <h1 style="padding-top: 100px; padding-left: 650px;">News</h1>
+  <div style="padding-left: 55px; padding-top: 20px;">
+    <img  src="../static/images/image2.png" style="width: 1350px;">
+  </div>
+  <div style="padding-top: 60px;">
+    <hr class="solid">
+    <div><span style="padding-left:650px; padding-bottom: 80px;">info@mysite.com</span></div>
+  </div>
+  <div style="padding-top: 40px"><span style="padding-left:560px;">@2020 by Harvington Hall. All Rights Reserved.</span></div>
+<script src="./static/js/utility.js"></script>
+</body>
+</html>
